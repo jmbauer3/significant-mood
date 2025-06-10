@@ -228,6 +228,36 @@ body::after {
     height: 160px; /* Smaller height for Spotify player */
 }
 
+/* Pinterest Link */
+.pinterest-link-container {
+    margin-top: 20px;
+}
+
+.pinterest-link-container p {
+    font-family: "Courier New", monospace;
+    font-size: 1.2em;
+    color: var(--vhs-muted-blue); /* Set color to match theme */
+    margin-bottom: 15px;
+}
+
+.pinterest-link {
+    display: inline-block;
+    background-color: var(--vhs-accent-red);
+    color: var(--vhs-cream);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Sour Gummy", cursive;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.pinterest-link:hover {
+    background-color: #a84238; /* Darker red on hover */
+}
+
 /* Footer */
 .vhs-footer {
     text-align: center;
