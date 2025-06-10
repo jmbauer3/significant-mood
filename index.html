@@ -6,6 +6,7 @@
     <title>Mood Board Portfolio - Retro VHS Aesthetic</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
     <header class="vhs-header">
@@ -14,23 +15,134 @@
     </header>
 
     <main>
+        <section id="spotify-playlist" class="vhs-section">
+            <h2 class="vhs-section-title">Soundtrack</h2>
+            <p class="vhs-section-subtitle">The audio companion to this visual journey</p>
+            <div class="spotify-embed-placeholder">
+                <!-- Replace with your Spotify embed code -->
+                <iframe src="https://open.spotify.com/embed/playlist/1CRbrcehR4V5SjeKzbKQrT?utm_source=generator&theme=0" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </section>
+
         <section id="book-covers" class="vhs-section">
             <h2 class="vhs-section-title">Book Covers</h2>
             <p class="vhs-section-subtitle">Titles that match both aesthetic and content</p>
-            <div class="image-grid" id="book-cover-grid"></div>
+            <div class="image-grid">
+                <!-- Book Cover Images -->
+                <div class="image-item">
+                    <img src="images/book1.jpg" alt="The Restaurant of Lost Recipes">
+                    <div class="image-info">
+                        <h3>The Restaurant of Lost Recipes</h3>
+                        <p>Hisashi Kashiwai</p>
+                        <span class="category">Literary Fiction</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book2.jpg" alt="The Seas">
+                    <div class="image-info">
+                        <h3>The Seas</h3>
+                        <p>Samantha Hunt</p>
+                        <span class="category">Contemporary Fantasy</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book3.jpg" alt="Meet Me in the Bathroom">
+                    <div class="image-info">
+                        <h3>Meet Me in the Bathroom</h3>
+                        <p>Lizzy Goodman</p>
+                        <span class="category">Punk Nonfiction</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book4.jpg" alt="Convenience Store Woman">
+                    <div class="image-info">
+                        <h3>Convenience Store Woman</h3>
+                        <p>Sayaka Murata</p>
+                        <span class="category">Literary Fiction</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book5.jpg" alt="The Pisces">
+                    <div class="image-info">
+                        <h3>The Pisces</h3>
+                        <p>Melissa Broder</p>
+                        <span class="category">Humor</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book6.jpg" alt="The Gray House">
+                    <div class="image-info">
+                        <h3>The Gray House</h3>
+                        <p>Mariam Petrosyan</p>
+                        <span class="category">Metaphysical</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book7.jpg" alt="The Starless Sea">
+                    <div class="image-info">
+                        <h3>The Starless Sea</h3>
+                        <p>Erin Morgenstern</p>
+                        <span class="category">Action & Adventure</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/book8.jpg" alt="Besnowed">
+                    <div class="image-info">
+                        <h3>Besnowed</h3>
+                        <p>John M. Bauer</p>
+                        <span class="category">Philosophically Flawed</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="other-media" class="vhs-section">
             <h2 class="vhs-section-title">Other Media</h2>
             <p class="vhs-section-subtitle">Manga, games, music, and visual art that inspire</p>
-            <div class="image-grid" id="other-media-grid"></div>
+            <div class="image-grid">
+                <!-- Other Media Images -->
+                <div class="image-item">
+                    <img src="images/media1.jpg" alt="BECK">
+                    <div class="image-info">
+                        <h3>BECK</h3>
+                        <p>Harold Sakuishi</p>
+                        <span class="category">Manga</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/media2.jpg" alt="FLCL">
+                    <div class="image-info">
+                        <h3>FLCL</h3>
+                        <p>Kazuya Tsurumaki</p>
+                        <span class="category">Anime</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/media3.jpg" alt="Happy Together">
+                    <div class="image-info">
+                        <h3>Happy Together</h3>
+                        <p>Wong Kar Wai</p>
+                        <span class="category">Movie</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images/media4.jpg" alt="APT">
+                    <div class="image-info">
+                        <h3>APT</h3>
+                        <p>ROSÉ & Bruno Mars</p>
+                        <span class="category">Music</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="spotify-playlist" class="vhs-section">
-            <h2 class="vhs-section-title">Soundtrack</h2>
-            <p class="vhs-section-subtitle">The audio companion to this visual journey</p>
-            <div class="spotify-embed-placeholder">
-                <iframe src="https://open.spotify.com/embed/playlist/1CRbrcehR4V5SjeKzbKQrT?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <section id="image-dump" class="vhs-section">
+            <h2 class="vhs-section-title">Image Dump (Pinterest)</h2>
+            <p class="vhs-section-subtitle">A collection of images that capture the vibe</p>
+            <div class="pinterest-embed-placeholder">
+                <!-- Pinterest Board Embed Code -->
+                <a data-pin-do="embedBoard" data-pin-board-width="1000" data-pin-scale-height="240" data-pin-scale-width="150" href="https://fr.pinterest.com/jmbauer3/significant-mood/"></a>
+                <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
             </div>
         </section>
     </main>
@@ -40,7 +152,6 @@
         <p>&copy; 2024 Mood Board Portfolio</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
 
